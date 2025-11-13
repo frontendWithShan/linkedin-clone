@@ -68,8 +68,8 @@ export default function App() {
   ]);
 
   const [newPost, setNewPost] = useState("");
-  const [notifications, setNotifications] = useState(3);
-  const [profileViews, setProfileViews] = useState(34);
+  const [notifications] = useState(3);
+  const [profileViews] = useState(34);
   const [commentDialogOpen, setCommentDialogOpen] = useState(false);
   const [activePost, setActivePost] = useState(null);
   const [newComment, setNewComment] = useState("");
